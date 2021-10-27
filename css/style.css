@@ -6,13 +6,15 @@ body {
 
 .nav_links {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 
 }
 
@@ -37,8 +39,9 @@ a {
 .pricing {
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-}
+    align-items: center; 
+    flex-wrap: wrap; 
+} 
 
 .card{
     flex-basis: 450px;
@@ -81,6 +84,7 @@ a {
 
 header {
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .card {
@@ -88,9 +92,10 @@ header {
 
 }
 
-/* .pricing {
+.pricing {
     flex-direction: row;
-} */
+    flex-wrap: wrap;
+}
  
 
 @media (prefers-reduced-motion) {

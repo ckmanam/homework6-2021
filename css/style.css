@@ -15,7 +15,7 @@ header {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-
+    align-items: center;
 }
 
 
@@ -95,7 +95,9 @@ header {
 .card > header {
     position: static;
 }
-
+.nav_links{
+    flex-direction: row;
+}
 
 
 .card {

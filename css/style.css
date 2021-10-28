@@ -83,9 +83,20 @@ a {
 
 
 header {
-    justify-content: space-between;
+    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    top: 0;
+
 }
+
+.card > header {
+    position: static;
+}
+
+
 
 .card {
     flex-basis: 250px;
